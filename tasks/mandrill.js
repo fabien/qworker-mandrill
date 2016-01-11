@@ -65,7 +65,7 @@ module.exports = function(worker, task) {
     worker.task(task.id, function(job, done) {
         var Email = registry.models.Email;
         var data = job.attrs.data;
-        if (Object.keys(data).length === 0) return done(); // skip
+        if (_.isEmpty(data)) return done(); // skip
         if (process.env.NODE_ENV === 'test') {
             console.log(JSON.stringify(data, null, 4));
             done();
