@@ -1,0 +1,25 @@
+{
+  "name": "qworker-mandrill",
+  "version": "1.0.0",
+  "description": "Mandrill integration for qworker",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danholten/qworker-mandrill"
+  },
+  "author": "Fabien Franzen <info@atelierfabien.be>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danholten/qworker-mandrill/issues"
+  },
+  "homepage": "https://github.com/danholten/qworker-mandrill",
+  "dependencies": {
+    "lb-connector-mandrill": "https://github.com/fabien/lb-connector-mandrill",
+    "loopback-datasource-juggler": "^2.44.0",
+    "independent-juggler": "https://github.com/fabien/independent-juggler"
+  }
+}
