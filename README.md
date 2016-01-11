@@ -32,6 +32,12 @@ Edit `config/datasources.local.json` as follows:
 
 All Mandrill message options are supported [api docs](https://mandrillapp.com/api/docs/messages.nodejs.html):
 
+## Starting a worker
+
+```
+qworker --id mandrill -v --mongo mongodb://localhost:27017/task-management mandrill
+```
+
 ## Usage
 
 The following can be issued as a RESTful request:
