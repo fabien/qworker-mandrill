@@ -18,8 +18,13 @@
   },
   "homepage": "https://github.com/danholten/qworker-mandrill",
   "dependencies": {
+    "email-templates-v2": "^2.0.3",
+    "independent-juggler": "https://github.com/fabien/independent-juggler",
+    "juice": "^1.9.0",
     "lb-connector-mandrill": "https://github.com/fabien/lb-connector-mandrill",
+    "less": "^2.5.3",
+    "lodash": "^3.10.1",
     "loopback-datasource-juggler": "^2.44.0",
-    "independent-juggler": "https://github.com/fabien/independent-juggler"
+    "nunjucks": "^2.3.0"
   }
 }
