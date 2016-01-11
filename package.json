@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/danholten/qworker-mandrill",
   "dependencies": {
+    "async": "^1.5.2",
     "email-templates-v2": "^2.0.3",
     "independent-juggler": "https://github.com/fabien/independent-juggler",
     "juice": "^1.9.0",
