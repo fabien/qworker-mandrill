@@ -21,7 +21,8 @@ module.exports = function(worker, task) {
     });
     
     task.observer('juice', function(ctx, next) {
-        if (ctx.job.attrs.data && _.isString(ctx.job.attrs.data.html)) {
+        if (ctx.job.attrs.data && _.isString(ctx.job.attrs.data.html) 
+            && !_.has(ctx.job.attrs.data, 'inline_css')) {
             var settings = registry.dataSources.mandrill.settings.templates || {};
             var options = settings.options || {};
             options = _.extend({}, options.juiceOptions);
