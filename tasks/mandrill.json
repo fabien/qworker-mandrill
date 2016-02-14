@@ -1,4 +1,5 @@
 {
   "name": "Mandrill",
-  "description": "Transactional email"
+  "description": "Transactional email",
+  "jobAttributes": ["data.from", "data.to", "data.subject", "data.template", "data.tags", "data.metadata"]
 }
